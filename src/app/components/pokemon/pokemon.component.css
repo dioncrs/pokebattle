@@ -1,0 +1,12 @@
+.pokemon-card{
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.stats-icon {
+    margin-right: 3px;
+}
+.type-grass {
+    background-color: #8cc7ae;
+    color: #4a7c61;
+}
