@@ -3,10 +3,135 @@
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.stats-icon {
-    margin-right: 3px;
+.mat-card-avatar{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 0;
 }
 .type-grass {
-    background-color: #8cc7ae;
-    color: #4a7c61;
+    background-color: white;
+    color: #9bcc50;
+    border-color: #9bcc50;
+}
+.type-grass-chip  {
+    background-color: #9bcc50;
+    color: white;
+}
+
+.type-water {
+    background-color: white;
+    color: #4592c4;
+}
+.type-water-chip  {
+    background-color: #4592c4;
+    color: white;
+}
+
+.type-fire {
+    background-color: white;
+    color: #fd7d24;
+}
+.type-fire-chip  {
+    background-color: #fd7d24;
+    color: white;
+}
+
+.type-ice {
+    background-color: white;
+    color: #51c4e7;
+}
+.type-ice-chip  {
+    background-color: #51c4e7;
+    color: white;
+}
+
+.type-poison {
+    background-color: white;
+    color: #b97fc9;
+}
+.type-poison-chip  {
+    background-color: #b97fc9;
+    color: white;
+}
+
+.type-bug {
+    background-color: white;
+    color: #729f3f;
+}
+.type-bug-chip  {
+    background-color: #729f3f;
+    color: white;
+}
+
+.type-rock {
+    background-color: white;
+    color: #a38c21;
+}
+.type-rock-chip  {
+    background-color: #a38c21;
+    color: white;
+}
+
+.type-normal {
+    background-color: white;
+    color: #a4acaf;
+}
+.type-normal-chip  {
+    background-color: #a4acaf;
+    color: white;
+}
+
+.type-eletric {
+    background-color: white;
+    color: #eed535;
+}
+.type-eletric-chip  {
+    background-color: #eed535;
+    color: white;
+}
+
+.type-fairy {
+    background-color: white;
+    color: #fdb9e9;
+}
+.type-fairy-chip  {
+    background-color: #fdb9e9;
+    color: white;
+}
+
+.type-steel {
+    background-color: white;
+    color: #9eb7b8;
+}
+.type-steel-chip  {
+    background-color: #9eb7b8;
+    color: white;
+}
+
+.type-fighting {
+    background-color: white;
+    color: #d56723;
+}
+.type-fighting-chip  {
+    background-color: #d56723;
+    color: white;
+}
+
+.type-psychic {
+    background-color: white;
+    color: #f366b9;
+}
+.type-psychic-chip  {
+    background-color: #f366b9;
+    color: white;
+}
+
+.type-flying {
+    background-color: white;
+    color: #3dc7ef;
+}
+.type-flying-chip  {
+    background-color: #3dc7ef;
+    color: white;
 }

@@ -1,0 +1,17 @@
+<div class="form-body">
+<form
+    autocomplete="off"
+    [formGroup]="createForm"
+    (ngSubmit)="onCreate(createForm.value)"
+  >
+    <div>
+      <label>Name: </label>
+      <input type="text" formControlName="name" autocomplete="off" />
+    </div>
+    <div>
+      <label>Personalidade: </label>
+      <input type="text" formControlName="person" autocomplete="off" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>

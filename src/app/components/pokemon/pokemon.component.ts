@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-import { Pokemon } from 'src/app/interfaces/pokemon.interface';
+import { Pokemon, Type } from 'src/app/interfaces/pokemon.interface';
 
 @Component({
   selector: 'app-pokemon',
@@ -9,19 +8,23 @@ import { Pokemon } from 'src/app/interfaces/pokemon.interface';
 })
 export class PokemonComponent implements OnInit {
   @Input() pokemon?: Pokemon;
+  displayedColumns: string[] = ['name', 'power'];
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  getPokemonPercentHp(hp: number, hpMax: number){
-
+  public getPokemonPercentHp(hp: number, hpMax: number){
     return (hp / hpMax) * 100
   }
 
-  getPokemonClassColor(type: string){
-    return 'type-grass';
+  public getPokemonClassColor(typeName: string): string{
+    return `type-${typeName.toLowerCase()}`
+    
   }
 
+  public getPokemonImage(number: string){
+    return `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${number}.png`
+  }
 }
