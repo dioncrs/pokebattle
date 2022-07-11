@@ -19,6 +19,7 @@ import { BattleComponent } from './components/battle/battle.component';
 import { PokemonEditComponent } from './components/pokemon-edit/pokemon-edit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     PokemonComponent,
     BattleComponent,
-    PokemonEditComponent    
+    PokemonEditComponent,
+    LoginComponent    
   ],
   imports: [
     BrowserModule,
