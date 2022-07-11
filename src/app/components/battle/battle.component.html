@@ -1,4 +1,7 @@
 <h2>Pokemons</h2>
-<div *ngFor="let pokemon of pokemons">
-    <app-pokemon [pokemon]="pokemon"></app-pokemon>
+<div fxLayout="row" fxLayoutAlign="space-between" >
+<div  *ngFor="let pokemon of pokemons">
+        <app-pokemon [pokemon]="pokemon"></app-pokemon>
 </div>
+</div>
+

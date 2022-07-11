@@ -22,11 +22,12 @@ export interface Move {
     name: string,
     accuracy: number,
     type: Type,
-    effect_chance:null,
+    effect_chance?:null,
     pp: number,
     priority: number,
     power: number,
-    learnedLevel: number
+    learnedLevel?: number,
+    effect?: string
 }
 
 export interface Type {

@@ -1,6 +1,5 @@
 .pokemon-card{
-    width: 400px;
-    margin-left: 10px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .mat-card-avatar{
@@ -9,6 +8,24 @@
     padding: 5px;
     border-radius: 0;
 }
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+  table th, table td{
+    padding: 5px; /* Apply cell padding */
+    text-align: center;
+    
+}
+
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+  
 .type-grass {
     background-color: white;
     color: #9bcc50;

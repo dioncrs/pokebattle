@@ -53,8 +53,26 @@
             </mat-grid-tile>
             <mat-grid-tile>{{pokemon.speed}}
             </mat-grid-tile>
+            <mat-grid-tile colspan="10">
+                
+            </mat-grid-tile>
         </mat-grid-list>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Poder</th>
+                <th>Precisão</th>
+                <th>Efeito</th>
+            </tr>
+            <tr *ngFor="let move of pokemon.activeMoves" [ngClass]="getPokemonClassColor(move.type.name + '-chip')">
+                <td>{{move.name}}</td>
+                <td>{{move.power}}</td>
+                <td>{{move.accuracy}}%</td>
+                <td><mat-icon aria-label="Info"  matTooltip="{{move.effect}}">info</mat-icon></td>
+            </tr>
+        </table>
         
 
     </mat-card-content>
+    
 </mat-card>

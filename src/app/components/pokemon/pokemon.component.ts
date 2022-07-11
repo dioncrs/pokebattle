@@ -27,4 +27,8 @@ export class PokemonComponent implements OnInit {
   public getPokemonImage(number: string){
     return `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${number}.png`
   }
+
+  public getEffect(effect?: string){
+    return effect ? effect.substring(0, 10) : '';
+  }
 }
